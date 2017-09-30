@@ -40,6 +40,6 @@ function removeLastKitten()
 
 function removeFirstKitten()
 {
-  var newArray = 
+  var newArray = array.slice(-1)
   return newArray
 }
