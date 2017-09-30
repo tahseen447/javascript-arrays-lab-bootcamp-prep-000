@@ -26,7 +26,7 @@ function appendKitten(name)
   return newArray;
 }
 
-function preprendKitten()
+function preprendKitten(name)
 {
   var newArray = [...kittens, name]
   return newArray;
